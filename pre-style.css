@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+}
+
+#section-1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#section-1-image {
+    max-width: 100vw;
+}
+
+#section-1 h1 {
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    font-size: 4rem;
+    color: #FCFFA6;
+}   
+
+#section-1 p {
+    position: absolute;
+    top: 49%;
+    right: 10%;
+    color: #FF9292;
+    display: block;
+}
+
+#section-1 #md {
+    display: none;
+}
+
+q {
+    display: block;
+    width: 400px;
+    text-align: center;
+}
+
+
+#section-2 {
+    display: block;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Web Design------------------------------------------------------------ */
+@media only screen and (max-width: 480px) {
+    #section-1 {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #section-1-image {
+        max-width: 100vw;
+    }
+    
+    #section-1 h1 {
+        position: absolute;
+        top: 25%;
+        right: 8%;
+        font-size: 1.5rem;
+        color: #FCFFA6;
+    }   
+    
+    #section-1 p {
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        color: #FF9292;
+        display: none;  /*-- This will not show in Mobile Device --*/
+    }
+
+    #section-1 #md {
+        display: block;  /*-- This will show in Mobile Device --*/
+    }
+    
+    q {
+        display: block;
+        width: 180px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #section-1 {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #section-1-image {
+        max-width: 100vw;
+    }
+    
+    #section-1 h1 {
+        position: absolute;
+        top: 35%;
+        right: 13%;
+        font-size: 1.5rem;
+        color: #FCFFA6;
+    }   
+    
+    #section-1 p {
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        color: #FF9292;
+        display: block; /*-- This will not show in Mobile Device --*/
+    }
+
+    #section-1 #md {
+        display: none;  /*-- This will show in Mobile Device --*/
+    }
+    
+    q {
+        display: block;
+        width: 300px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    #section-1 {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    
+    #section-1-image {
+        max-width: 100vw;
+    }
+    
+    #section-1 h1 {
+        position: absolute;
+        top: 30%;
+        right: 12%;
+        font-size: 2rem;
+        color: #FCFFA6;
+    }   
+    
+    #section-1 p {
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        color: #FF9292;
+        display: block;  /*-- This will not show in Mobile Device --*/
+    }
+
+    #section-1 #md {
+        display: none;  /*-- This will show in Mobile Device --*/
+    }
+    
+    q {
+        display: block;
+        width: 380px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+div#top {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+    background: url('images/Education-BG.jpg');
+    width: 100vw;
+    height: 60vw;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+div h1#top-heading {
+    position: absolute;
+    right: 6%;
+    top: 25%;
+    font-size: 1.5em;
+    color: #FFE699;
+}
+
+div p#top-text {
+    font-size: 0.7rem;
+    width: 35vw;
+    text-align: center;
+    color: #FF9292;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+div#row1 {
+    position: relative;
+    top: 0px;
+
+}
+
+div#row1 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+div#row1::before {
+    content: "";
+    position: absolute;
+    background-image: url('images/BG.jpg');
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+div#detail {
+    text-align: center;
+}
+
+div#col1 img {
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+
+div#col1 p {
+    line-height: 5px;
+    text-align: center;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+div#col2 a {
+    background-color: red;
+    padding: 15px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+div#col2 a:link {
+    color: #fff;
+}
+
+div#col2 a:visited {
+    color: #fff;
+}
+
+div#col2 a:hover {
+    color: lightseagreen;
+}
+
+iframe {
+  padding-top: 20px;
+  width: 200px !important;
+  height: 200px !important;
+}
